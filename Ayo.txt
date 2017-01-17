@@ -1,0 +1,2 @@
+﻿Hello! You Git Me!!!
+Git is useful tool if you know how to deal with that.
