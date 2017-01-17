@@ -11,7 +11,6 @@ int main(int argc, char* argv[])
 	float result;
 	char operator;
 	
-	printf("식을 입력해 주세요");
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
