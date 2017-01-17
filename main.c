@@ -2,12 +2,13 @@
  
 int add(int, int);
 int sub(int, int);
-int div(int, int);
+float div(int, int);
 int multi(int, int);
  
 int main(int argc, char* argv[])
 {
-	int number1, number2, result;
+	int number1, number2;
+	float result;
 	char operator;
 	
 	printf("Please enter a expression: ");
@@ -29,7 +30,7 @@ int main(int argc, char* argv[])
 			break;
 	}
 	
-	printf("result is %d.\n", result);
+	printf("result is %f.\n", result);
 	
 	return 0;
 }
@@ -51,8 +52,8 @@ int multi(int number1, int number2)
 	return number1 * number2;
 }
  
-int div(int number1, int number2)
+float div(int number1, int number2)
 {
-	//TODO implementation
-	return 0;
+	float result = (float) number1/number2;
+	return result;
 }
