@@ -11,7 +11,6 @@ int main(int argc, char* argv[])
 	float result;
 	char operator;
 	
-	printf("Please enter a expression: (ex 2 + 3)");
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
